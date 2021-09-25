@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".pantalla5">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/verdeLigeroP5"
+        android:padding="20dp">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/usuario"
+            app:shapeAppearanceOverlay="@style/imagenCircular"
+            android:id="@+id/foto"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/foto"
+            android:layout_marginTop="-15dp"
+            android:text="Card"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="@color/blancoLigero"
+            android:id="@+id/texto_card"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/texto_card"
+            android:text="Simple and easy to use app"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:textColor="@color/blancoLigero"
+            android:layout_marginBottom="40dp"
+            android:id="@+id/texto_ingles"/>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/texto_ingles"
+            android:columnCount="2"
+            android:rowCount="3"
+            android:id="@+id/grid">
+
+            <!-- CELDA DE LA BIBLIA -->
+            <LinearLayout
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="10dp"
+                android:layout_columnWeight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingVertical="15dp"
+                android:background="@color/blancoLigero">
+
+                <ImageView
+                    style="@style/imagen_Pantalla5"
+                    android:src="@drawable/biblia"/>
+
+                <TextView
+                    style="@style/titulo_Pantalla5"
+                    android:text="Text"/>
+
+                <TextView
+                    style="@style/descripcion_Pantalla5"
+                    android:text="Descripcion"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_columnWeight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingVertical="15dp"
+                android:background="@color/blancoLigero">
+
+                <ImageView
+                    style="@style/imagen_Pantalla5"
+                    android:src="@drawable/casa"/>
+
+                <TextView
+                    style="@style/titulo_Pantalla5"
+                    android:text="Address"/>
+
+                <TextView
+                    style="@style/descripcion_Pantalla5"
+                    android:text="Descripcion"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="10dp"
+                android:layout_columnWeight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingVertical="15dp"
+                android:background="@color/blancoLigero">
+
+                <ImageView
+                    style="@style/imagen_Pantalla5"
+                    android:src="@drawable/persona"/>
+
+                <TextView
+                    style="@style/titulo_Pantalla5"
+                    android:text="Character"/>
+
+                <TextView
+                    style="@style/descripcion_Pantalla5"
+                    android:text="Descripcion"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_columnWeight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingVertical="15dp"
+                android:background="@color/blancoLigero">
+
+                <ImageView
+                    style="@style/imagen_Pantalla5"
+                    android:src="@drawable/tarjeta_credito"/>
+
+                <TextView
+                    style="@style/titulo_Pantalla5"
+                    android:text="Bank card"/>
+
+                <TextView
+                    style="@style/descripcion_Pantalla5"
+                    android:text="Descripcion"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="10dp"
+                android:layout_columnWeight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingVertical="15dp"
+                android:background="@color/blancoLigero">
+
+                <ImageView
+                    style="@style/imagen_Pantalla5"
+                    android:src="@drawable/llave"/>
+
+                <TextView
+                    style="@style/titulo_Pantalla5"
+                    android:text="Password"/>
+
+                <TextView
+                    style="@style/descripcion_Pantalla5"
+                    android:text="Descripcion"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_columnWeight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingVertical="15dp"
+                android:background="@color/blancoLigero">
+
+                <ImageView
+                    style="@style/imagen_Pantalla5"
+                    android:src="@drawable/envio_paquete"/>
+
+                <TextView
+                    style="@style/titulo_Pantalla5"
+                    android:text="Logistics"/>
+
+                <TextView
+                    style="@style/descripcion_Pantalla5"
+                    android:text="Descripcion"/>
+
+            </LinearLayout>
+        </GridLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/grid"
+            android:layout_alignParentBottom="true"
+            android:background="@color/blancoLigero"
+            android:paddingVertical="10dp"
+            android:paddingHorizontal="20dp"
+            android:id="@+id/texto_settings">
+
+            <ImageView
+                android:id="@+id/icono_ajuste"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/icono_ajuste"/>
+
+            <TextView
+                android:id="@+id/texto_settings2"
+                android:layout_toEndOf="@id/icono_ajuste"
+                style="@style/titulo_Pantalla5"
+                android:text="Settings"/>
+
+            <TextView
+                android:layout_toEndOf="@id/icono_ajuste"
+                android:layout_below="@id/texto_settings2"
+                style="@style/descripcion_Pantalla5"
+                android:text="Descripcion"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/portada"
+            android:title="Portada" />
+
+        <item
+            android:id="@+id/p1"
+            android:title="Pantalla 1 (Login)" />
+
+        <item
+            android:id="@+id/p2"
+            android:title="Pantalla 2 (Login)"/>
+
+        <item
+            android:id="@+id/p3"
+            android:title="Pantalla 3 (Cronometro)"/>
+
+        <item
+            android:id="@+id/p4"
+            android:title="Pantalla 4 (Sol con FrameLayout)"/>
+
+        <item
+            android:id="@+id/p5"
+            android:title="Pantalla 5 (Tarjetas)"/>
+
+        <item
+            android:id="@+id/p6"
+            android:title="Pantalla 6 (Tarjetas Verticales)"/>
+
+        <item
+            android:id="@+id/p7"
+            android:title="Pantalla 7 (Lugar Turistico Nayarit)"/>
+
+        <item
+            android:id="@+id/p8"
+            android:title="Pantalla 8 (Lugares Turisticos Nayarit)"/>
+    </group>
+</menu>

@@ -1,0 +1,84 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.AppEjemplo1" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+
+
+    <style name="imagenCircular" parent="">
+        <item name="cornerSize">50%</item>
+        <item name="color">@color/white</item>
+        <item name="android:colorBackground">@color/white</item>
+    </style>
+
+    <style name="imagenRedondeada" parent="">
+        <item name="cornerSize">12%</item>
+        <item name="color">@color/white</item>
+        <item name="android:colorBackground">@color/white</item>
+    </style>
+
+    <!-- ESTILO DE LOS TEXTOS SUPERIORES DE LA PANTALLA 4 -->
+    <style name="estiloTexto_Pantalla4" >
+        <item name="android:textColor">@color/blancoLigero</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginBottom">5dp</item>
+    </style>
+
+    <!-- ESTILO DE LOS TEXTOS INFERIORES DE LA PANTALLA 4 -->
+    <style name="estiloTexto2_Pantalla4" >
+        <item name="android:textColor">@color/blancoLigero</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginBottom">5dp</item>
+    </style>
+
+    <!-- ESTILO DE LAS IMAGENES DEL GRID DE LA PANTALLA 5 -->
+    <style name="imagen_Pantalla5" >
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <!-- ESTILO DE LOS TITULOS DEL GRID DE LA PANTALLA 5 -->
+    <style name="titulo_Pantalla5" >
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">26sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <!-- ESTILO DE LAS DESCRIPCIONES DEL GRID DE LA PANTALLA 5 -->
+    <style name="descripcion_Pantalla5" >
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/grisLight</item>
+    </style>
+
+    <style name="Theme.AppEjemplo1.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.AppEjemplo1.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.AppEjemplo1.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

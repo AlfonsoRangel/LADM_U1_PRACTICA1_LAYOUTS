@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    tools:context=".Pantalla4"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/negroLigero">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginHorizontal="30dp"
+        android:src="@drawable/sol"
+        android:layout_gravity="center"
+        android:scaleType="fitCenter" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="top|left"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Focus /"
+            style="@style/estiloTexto_Pantalla4" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Breathe /"
+            style="@style/estiloTexto_Pantalla4"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Relax /"
+            style="@style/estiloTexto_Pantalla4" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="..."
+            android:textSize="50sp"
+            android:textStyle="bold"
+            android:textColor="@color/blancoLigero"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="04"
+        android:textSize="100sp"
+        android:textStyle="bold"
+        android:layout_gravity="top|right"
+        android:textColor="@color/blancoLigero"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="bottom|left"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:paddingTop="50dp" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Hold"
+            style="@style/estiloTexto2_Pantalla4" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="your"
+            style="@style/estiloTexto2_Pantalla4"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="breath"
+            style="@style/estiloTexto2_Pantalla4" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="End now"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        android:layout_gravity="bottom|center_horizontal"
+        android:textColor="@color/blancoLigero"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="05"
+        android:textSize="70sp"
+        android:textStyle="bold"
+        android:layout_gravity="bottom|right"
+        android:textColor="@color/blancoLigero"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp" />
+
+</FrameLayout>
+
+</ScrollView>

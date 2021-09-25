@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Portada"
+    android:background="@color/azulOpaco">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingHorizontal="15dp"
+        android:paddingVertical="15dp">
+
+        <TextView
+            android:textColor="@color/blancoLigero2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="INSTITUTO TECNOLOGICO DE TEPIC"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:src="@drawable/logo"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:textColor="@color/blancoLigero2"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Laboratorio de Aplicaciones para Dispositivos Móviles"
+            android:textSize="21sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:textColor="@color/blancoLigero2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:text="Práctica 1"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:textColor="@color/blancoLigero2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:text="Unidad 1"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:textColor="@color/blancoLigero2"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="''Layouts y más layouts''"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:textColor="@color/blancoLigero2"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="textStart"
+            android:text="Integrantes:"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:paddingHorizontal="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textColor="@color/blancoLigero2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="textStart"
+                android:layout_weight="1"
+                android:text="Alfonso Aldair Rangel Cantabrana"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:textColor="@color/blancoLigero2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="textStart"
+                android:text="17401056"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:paddingHorizontal="10dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:paddingHorizontal="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textColor="@color/blancoLigero2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="textStart"
+                android:layout_weight="1"
+                android:text="Alejandro Antonio Ramírez Hernández"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:textColor="@color/blancoLigero2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="textStart"
+                android:text="17401052"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:paddingHorizontal="10dp"/>
+        </LinearLayout>
+
+        <TextView
+            android:textColor="@color/blancoLigero2"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Docente"
+            android:textSize="16sp" />
+
+        <TextView
+            android:textColor="@color/blancoLigero2"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Sergio Benigno Castillo Valtierra"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+</ScrollView>
