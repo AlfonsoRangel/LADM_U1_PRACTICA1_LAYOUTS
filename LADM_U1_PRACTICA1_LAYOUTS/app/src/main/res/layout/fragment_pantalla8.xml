@@ -11,13 +11,15 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:paddingHorizontal="20dp"
-        android:paddingVertical="40dp">
+        android:paddingTop="50dp"
+        android:paddingBottom="20dp"
+        android:layout_marginBottom="70dp">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:paddingHorizontal="16dp">
 
             <!-- CONTENEDOR PARA EL TITULO -->
             <LinearLayout
@@ -30,14 +32,14 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Pick up "
-                    android:textSize="26sp"
+                    android:textSize="30sp"
                     android:textStyle="bold"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="mountain"
-                    android:textSize="26sp" />
+                    android:textSize="30sp" />
             </LinearLayout>
 
             <!-- CONTENEDOR PARA LAS IMAGENES -->
@@ -49,7 +51,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
-                    android:paddingBottom="6dp">
+                    android:paddingBottom="12dp">
 
                     <!-- LA TOVARA -->
                     <LinearLayout
@@ -95,11 +97,11 @@
                             android:text="Bucerias"
                             android:textSize="16sp"
                             android:gravity="center"
-                            android:paddingVertical="18dp"
+                            android:paddingVertical="25dp"
                             android:background="@drawable/esq_redondeadas"
                             android:backgroundTint="@color/white"
                             android:layout_gravity="center"
-                            android:layout_marginTop="-28dp"
+                            android:layout_marginTop="-35dp"
                             />
                     </LinearLayout>
 
@@ -233,26 +235,26 @@ Rockies are a major mountain range located in western North America"
                 android:backgroundTint="@color/rojoOscuro">
 
                 <ImageView
-                    android:layout_width="25dp"
-                    android:layout_height="25dp"
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
                     android:layout_weight="1"
                     android:layout_gravity="center"
                     app:tint="@color/blancoLigero"
-                    android:src="@drawable/icono_taxi" />
+                    android:src="@drawable/ic_menu_gallery" />
 
             </FrameLayout>
 
             <ImageView
-                android:layout_width="25dp"
-                android:layout_height="25dp"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
                 android:layout_weight="1"
                 android:layout_gravity="center"
                 app:tint="@color/blancoLigero"
-                android:src="@drawable/icono_taxi" />
+                android:src="@drawable/icono_calendario" />
 
             <ImageView
-                android:layout_width="25dp"
-                android:layout_height="25dp"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
                 android:layout_gravity="center"
                 android:layout_weight="1"
                 app:tint="@color/blancoLigero"

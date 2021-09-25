@@ -31,17 +31,17 @@
     <!-- ESTILO DE LOS TEXTOS SUPERIORES DE LA PANTALLA 4 -->
     <style name="estiloTexto_Pantalla4" >
         <item name="android:textColor">@color/blancoLigero</item>
-        <item name="android:textSize">22sp</item>
+        <item name="android:textSize">21sp</item>
         <item name="android:textStyle">bold</item>
-        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:layout_marginBottom">4dp</item>
     </style>
 
     <!-- ESTILO DE LOS TEXTOS INFERIORES DE LA PANTALLA 4 -->
     <style name="estiloTexto2_Pantalla4" >
         <item name="android:textColor">@color/blancoLigero</item>
-        <item name="android:textSize">20sp</item>
+        <item name="android:textSize">18sp</item>
         <item name="android:textStyle">bold</item>
-        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:layout_marginBottom">2dp</item>
     </style>
 
     <!-- ESTILO DE LAS IMAGENES DEL GRID DE LA PANTALLA 5 -->
@@ -56,7 +56,7 @@
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_gravity">center</item>
-        <item name="android:textSize">26sp</item>
+        <item name="android:textSize">22sp</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textAlignment">center</item>
     </style>
@@ -66,7 +66,7 @@
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_gravity">center</item>
-        <item name="android:textSize">16sp</item>
+        <item name="android:textSize">13sp</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textAlignment">center</item>
         <item name="android:textColor">@color/grisLight</item>

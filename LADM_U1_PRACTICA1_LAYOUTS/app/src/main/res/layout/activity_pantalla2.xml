@@ -17,7 +17,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:layout_marginTop="15dp" >
+        android:layout_marginTop="35dp" >
 
         <FrameLayout
             android:layout_gravity="center">
@@ -43,7 +43,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="18sp"
+            android:textSize="19sp"
             android:paddingVertical="5dp"
             android:gravity="center"
             android:textColor="@color/morado"
@@ -108,8 +108,8 @@
     <!-- TABLERO DE DIGITOS -->
         <GridLayout
             android:layout_marginHorizontal="30dp"
-            android:layout_marginTop="40dp"
-            android:layout_marginBottom="25dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="30dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:columnCount="3"
@@ -139,7 +139,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text=" "
-                    android:textSize="15sp" />
+                    android:textSize="13sp" />
             </LinearLayout>
 
 
@@ -165,7 +165,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="ABC"
-                    android:textSize="15sp" />
+                    android:textSize="13sp" />
             </LinearLayout>
 
             <!-- #3 -->
@@ -190,7 +190,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="DEF"
-                    android:textSize="15sp" />
+                    android:textSize="13sp" />
             </LinearLayout>
 
             <!-- #4 -->
@@ -215,7 +215,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="GHI"
-                    android:textSize="15sp" />
+                    android:textSize="13sp" />
             </LinearLayout>
 
             <!-- #5 -->
@@ -240,7 +240,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="JKL"
-                    android:textSize="15sp" />
+                    android:textSize="13sp" />
             </LinearLayout>
 
             <!-- #6 -->
@@ -265,7 +265,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="MNO"
-                    android:textSize="15sp" />
+                    android:textSize="13sp" />
             </LinearLayout>
 
             <!-- #7 -->
@@ -290,7 +290,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="PQRS"
-                    android:textSize="15sp" />
+                    android:textSize="13sp" />
             </LinearLayout>
 
             <!-- #8 -->
@@ -315,7 +315,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="TUV"
-                    android:textSize="15sp" />
+                    android:textSize="13sp" />
             </LinearLayout>
 
             <!-- #9 -->
@@ -340,7 +340,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="WXYZ"
-                    android:textSize="15sp" />
+                    android:textSize="13sp" />
             </LinearLayout>
 
             <!-- VACIO -->
